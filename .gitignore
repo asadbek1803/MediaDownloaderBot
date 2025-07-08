@@ -1,0 +1,50 @@
+# Python fayllar
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# IDE fayllari
+.vscode/
+.idea/
+*.swp
+
+# OS fayllari
+.DS_Store
+Thumbs.db
+
+# PyCharm va boshqa editorlar uchun
+*.iml
+*.ipr
+*.iws
+
+# SQLite (agar ishlatilsa)
+*.sqlite3
+
+# Log fayllar
+*.log
+
+# Secrets
+.env
+*.env
+
+# Compiled files
+*.so
+*.egg-info/
+
+# Render/Heroku/Railway deployments (agar kerak bo'lsa exclude qilinadi)
+start.sh
+render.yaml
+Procfile
+
+# Misc
+*.bak
+*.tmp
+*.zip
